@@ -36,8 +36,11 @@ by assisting artists to create music and visuals that better resonate with audie
 
 ## Example 
 
-Example is done using the follow song, Promenade IV by modest Modest Mussorgsky. The song starts slow and somber and gets more tense and abrasive towards the end
-https://github.com/user-attachments/assets/a2ef5cd6-a271-48d5-88b0-2d335b2f5282
+Example is done using a roughly 2 minute song that starts slow and somber and gets more tense and abrasive towards the end
+
+
+The audio file is split into 30 second chunks. Each chunk is classified into one of four emotion classes (Exuberance, Anxiety, Depression or Contentment)
+
 ```
 Chunk: 1 From 0:00:00 To 0:00:30
 
@@ -59,4 +62,34 @@ Chunk: 4 From 0:01:30 To 0:01:54.965986
 Music Sentiment: Q2-Anxiety
 Emotions in this quadrant: Alarmed, Afraid, Angry, Tense, Distressed, Frustrated, Annoyed
 ```
+
+For each chunk a subject and style is selected
+Chunk 1 - Earth, abstract style
+Chunk 2 - Moon, abstract style
+Chunk 3 - Stars, abstract style
+Chunk 4 - Galaxy, abstract style
+
+GPT then develops prompts for images based on the subject, style and emotion in each chunk
+Chunk 1 Image Prompt:  Earth depicted in an abstract style, depressed color palette, desolate landscapes, gloomy atmosphere, tired planet, droopy shapes and forms
+Chunk 2 Image Prompt:  The moon in an abstract style, distorted shapes, dark hues, a sense of loneliness, somber atmosphere, melancholic aura
+Chunk 3 Image Prompt:  Stars depicted in an abstract style, chaotic constellation patterns, a sense of unease, swirling shapes and lines, an atmosphere of tension and restlessness, distorted and fragmented imagery, a feeling of disarray and disquiet
+Chunk 4 Image Prompt:  A galaxy in an abstract style, swirling and chaotic, colors blending in frenzy, vastness that overwhelms, a sense of unease and tension, a turbulent and turbulent atmosphere.
+
+AI visualizations are generated depecting the selecteed subject and style 
+
+ Chunk 1
+ 
+![c1](https://github.com/user-attachments/assets/46446780-74be-4eb5-be97-564a9c2c43a4)
+
+ Chunk 2
+ 
+![c2](https://github.com/user-attachments/assets/2d2fbf98-eb10-484c-888b-bf379b88ff79)
+
+ Chunk 3
+ 
+![c3](https://github.com/user-attachments/assets/5ae41843-4157-4601-ada9-9a490a42af55)
+
+ Chunk 4
+ 
+![c4](https://github.com/user-attachments/assets/4e9939c6-2500-4fb4-9762-809bec893b0a)
 
