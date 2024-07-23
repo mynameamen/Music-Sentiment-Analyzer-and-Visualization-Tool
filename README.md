@@ -70,10 +70,13 @@ Chunk 3 - Stars, abstract style
 Chunk 4 - Galaxy, abstract style
 
 GPT then develops prompts for images based on the subject, style and emotion in each chunk
+
+```
 Chunk 1 Image Prompt:  Earth depicted in an abstract style, depressed color palette, desolate landscapes, gloomy atmosphere, tired planet, droopy shapes and forms
 Chunk 2 Image Prompt:  The moon in an abstract style, distorted shapes, dark hues, a sense of loneliness, somber atmosphere, melancholic aura
 Chunk 3 Image Prompt:  Stars depicted in an abstract style, chaotic constellation patterns, a sense of unease, swirling shapes and lines, an atmosphere of tension and restlessness, distorted and fragmented imagery, a feeling of disarray and disquiet
 Chunk 4 Image Prompt:  A galaxy in an abstract style, swirling and chaotic, colors blending in frenzy, vastness that overwhelms, a sense of unease and tension, a turbulent and turbulent atmosphere.
+```
 
 AI visualizations are generated depecting the selecteed subject and style 
 
